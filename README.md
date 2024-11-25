@@ -1,18 +1,22 @@
-## Getting Started
+## Scopo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Creare una libreria in grado di gestire le operazioni aritmetiche tra frazioni. La frazione è una tipologia di numero che solo la mente umana concepisce, dobbiamo qui creare la logica che conosciamo per farne un tipo di dato fruibile.
 
-## Folder Structure
+## Procedimento
+Troverai già lo scheletro di alcune classi. Lo scopo è costruire una classe Frazione concreta che implementi l'interfaccia AritmeticaFrazioni.
 
-The workspace contains two folders by default, where:
+## Vincoli
+Quando istanzi un oggetto Frazione, applica subito la semplificazione.
+Se ti serve il calcolo del masssimo comun divisore (MCD), questo è l'algoritmo (n=numeratore, d=denominatore):
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+        while (d != 0) {
+            int temp = d;
+            d = n % d;
+            n = temp;
+        }
+        return Math.abs(n);
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Suggerimenti
+La matematica dietro questa libreria è semplice, l'hai studiata sicuramente ma capisco tu la possa non ricordare. Consulta tutte le pagine web e tutte le intelligenze artificiali per farti aiutare, se poi non saprai mettere insieme ancora i pezzi significa che devi ancora allenare l'aspetto sintattico/semantico della programmazione.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
