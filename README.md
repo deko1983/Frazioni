@@ -7,7 +7,7 @@ Troverai già lo scheletro di alcune classi. Lo scopo è costruire una classe Fr
 
 ## Vincoli
 Quando istanzi un oggetto Frazione, applica subito la semplificazione.
-Se ti serve il calcolo del masssimo comun divisore (MCD), questo è l'algoritmo (n=numeratore, d=denominatore):
+Se ti serve il calcolo del massimo comun divisore (MCD), questo è l'algoritmo (n=numeratore, d=denominatore):
 
         while (d != 0) {
             int temp = d;
