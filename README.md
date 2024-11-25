@@ -19,4 +19,7 @@ Se ti serve il calcolo del massimo comun divisore (MCD), questo è l'algoritmo (
 ## Suggerimenti
 La matematica dietro questa libreria è semplice, l'hai studiata sicuramente ma capisco tu la possa non ricordare. Consulta tutte le pagine web e tutte le intelligenze artificiali per farti aiutare, se poi non saprai mettere insieme ancora i pezzi significa che devi ancora allenare l'aspetto sintattico/semantico della programmazione.
 
+## Conclusioni finali
+Questo esercizio servirà anche ad introdurre quanto serve per sviluppare i test automatici. Al momento fai in modo che nella classe App.java non ci siano più errori e l'esecuzione arrivi a termine senza errori.
+
 
